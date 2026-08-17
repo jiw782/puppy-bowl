@@ -1,6 +1,5 @@
-// === Constants ===
 const BASE = "https://fsa-puppy-bowl.herokuapp.com/api";
-const COHORT = "/2606-FTB-CT-WEB-PT"; // Make sure to change this!
+const COHORT = "/2606-FTB-CT-WEB-PT";
 const API = BASE + COHORT;
 
 let puppies = [];
