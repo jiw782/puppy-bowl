@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0 1rem;
+}
+
+h1 {
+  text-align: center;
+}
+/* ul {
+  display: flex;
+  border: solid 1px black;
+  flex-direction: column;
+} */
+li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: solid 1px black;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.puppyCard {
+  display: flex;
+  align-items: center;
+}
+main {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (width <= 600px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+img {
+  width: 50px;
+}
+.puppies {
+  display: grid;
+  gap: 1ch;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.puppies a {
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  padding: 1ch;
+  text-decoration: none;
+  color: black;
+}
+
+.puppies a:hover {
+  background: #eee;
+  font-style: italic;
+}
+
+.puppies li.selected {
+  font-weight: bold;
+  font-style: italic;
+}
+
+form {
+  display: grid;
+  gap: 1ch;
+  padding: 0 1rem;
+}
+
+label {
+  display: grid;
+}
